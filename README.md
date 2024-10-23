@@ -1,8 +1,11 @@
 Arduino-Based Robot-Car Project
+
 Overview
+
 This project involves the development of an Arduino-based robot car with two operating modes:
 
 1.Manual Mode (Bluetooth Control via Mobile App): The robot car is controlled via a mobile app developed using MIT App Inventor, allowing precise control over its movement through a Bluetooth connection.
+
 2.Autonomous Mode (Obstacle Avoidance): The robot car automatically navigates its environment using ultrasonic sensors, maintaining a set distance of 7 cm from objects.
 
 Features:
