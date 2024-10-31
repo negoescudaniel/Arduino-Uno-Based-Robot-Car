@@ -8,7 +8,6 @@ This project involves the development of an Arduino-based robot car with two ope
 
 2. **Autonomous Mode (Obstacle Avoidance)**: The robot car automatically navigates its environment using ultrasonic sensors, maintaining a set distance of 7 cm from objects.
 
----
 
 ## Features
 
@@ -16,7 +15,6 @@ This project involves the development of an Arduino-based robot car with two ope
 - **Autonomous Mode**: The car uses ultrasonic sensors to detect obstacles and adjust its movements, ensuring it maintains a 7 cm distance from objects.
 - **PID Control Algorithm**: A Proportional-Integral-Derivative (PID) control system is employed to maintain a precise distance from obstacles during autonomous operation.
 
----
 
 ## Hardware Components
 
@@ -26,7 +24,6 @@ This project involves the development of an Arduino-based robot car with two ope
 - **Bluetooth Module**: The HC-05 Bluetooth module receives control commands from the mobile app.
 - **Power Supply**: Two 9V batteries powering the car.
 
----
 
 ## Mobile App Features
 
@@ -34,7 +31,6 @@ Developed using MIT App Inventor, the app provides an easy-to-use interface for 
 
 - **Joystick Control**: The app includes a joystick feature to send X and Y axis data to the Arduino via Bluetooth.
 
----
 
 ## Code Functionality
 
@@ -46,13 +42,11 @@ Developed using MIT App Inventor, the app provides an easy-to-use interface for 
   - Ultrasonic sensors measure distances to obstacles.
   - A PID control system adjusts motor speeds to maintain a 7 cm distance from objects.
 
----
 
 ## Control Logic
 
 The robot enters manual mode when the mode selector (analog pin A0) reads values below 511. The mobile app sends joystick commands to control the robot's movement.
 
----
 
 ## Possible Future Improvements
 
