@@ -19,7 +19,7 @@ This project involves the development of an Arduino-based robot car with two ope
 ## Hardware Components
 
 - **Arduino Uno**: The central microcontroller that handles inputs from sensors, the Bluetooth module, and controls the motors.
-- **Motors and Motor Driver**: Four DC motors controlled via PWM outputs for speed control.
+- **Motors and Motor Driver**: Two DC motors controlled via PWM outputs for speed control.
 - **Ultrasonic Sensors**: Two ultrasonic sensors (HC-SR04) to measure distances to obstacles in autonomous mode.
 - **Bluetooth Module**: The HC-05 Bluetooth module receives control commands from the mobile app.
 - **Power Supply**: Two 9V batteries powering the car.
